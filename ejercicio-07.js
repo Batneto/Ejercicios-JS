@@ -1,18 +1,36 @@
 
 
 
+var num = parseInt(prompt("mete un numero ",0));
 
-function cifras() {
+var cuenta = 1;
 
-    var num=prompt("mete un nuemero ",0)
+var realizado = false;
 
-    var cifra=num.toString();
-
-    console.log(cifra.length);
+if(num<0){
+    num=num*(-1);
 }
 
-// var num=prompt("mete un nuemero ",0)
+  //*ternario(mirar mas adelante) num = num<0 ? num*(-1) : num;
 
-// var array=num.toString();
+while (!realizado){
 
-// console.log(array.length);
+    if (num<10){
+        realizado = true;
+        
+        
+    }
+    else{
+        num = num/10;
+        cuenta++;
+    }
+}
+console.log(cuenta); 
+
+
+
+
+
+    
+
+
