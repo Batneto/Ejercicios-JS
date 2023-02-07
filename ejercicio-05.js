@@ -1,9 +1,9 @@
 
 
 
-//todo Ejercicio Resuelto Plus
+//todo Ejercicio Resuelto 
 
-var letra = prompt("mete una leta")
+var letra = prompt("mete una a,b,c")
 
 if(letra!="a"|| letra!="b" || letra!="c" ){
     alert("Te has confundido de letra mete otra ")

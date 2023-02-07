@@ -5,20 +5,23 @@
 
 
 
-var usuarioBueno= "pepe";
-var passBuena= "juan";
+var usuarioBueno= "usuario";
+var passBuena= "pass";
+var usuario
+var pass
 let j = 1;
 
-var usuario=(prompt("Mete tu usario"));
-var pass=(prompt("Mete tu pass"));
+// var usuario=(prompt("Mete tu usario"));
+// var pass=(prompt("Mete tu pass"));
 
 do{ 
-    var usuario=(prompt("Mete tu usario"));
-    var pass=(prompt("Mete tu pass"));
+     usuario=(prompt("Mete tu usario"));
+     pass=(prompt("Mete tu pass"));
    
  j++ 
+
 }while((usuarioBueno!=usuario||passBuena!=pass)&&j<=3)
 
 
-//todo Ejercicio mejor
+
 
