@@ -1,4 +1,5 @@
 
+//! Una función que permita mostrar la secuencia (se debe construir la cadena de uno en uno):
 
 
 

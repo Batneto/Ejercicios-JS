@@ -1,4 +1,4 @@
-
+//! Una función que muestre al usuario una secuencia de * (se debe construir la cadena de uno en uno), la cantidad de * será solicitada al usuario
 
 function asteriscos() {
     

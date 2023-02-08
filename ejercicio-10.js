@@ -1,5 +1,5 @@
 
-
+//! Una función que permita mostrar un triángulo como el siguiente:
 
 var num=parseInt(prompt("mete un numero ",0))
 
